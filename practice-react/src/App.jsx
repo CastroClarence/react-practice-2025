@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Hello from "./HelloWorld"
+import Card from "./components/Card"
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Hello />
      */}
 
+     <Card name="Teng" age = '22' />
+     <Card />
     </>
   )
 }
